@@ -12,7 +12,7 @@ Install dependencies using [pnpm](https://pnpm.io/) or [yarn](https://www.npmjs.
 ```bash
 # using pnpm
 pnpm install
-ßß
+
 # or using yarn
 yarn install
 
