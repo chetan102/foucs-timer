@@ -1,88 +1,9 @@
-# Electron React Webpack Typescript - ERWT
+# Focus Timer 
 
-A ready-to-go setup for building desktop apps with Electron, React, Webpack, and TypeScript. It’s got hot-reload, custom import aliases, and makes it easy to create executable builds for sharing.
+An easy to use timer destop Application.
 
-<br>
-<img src="assets/images/anim_v8.gif" />
-<br>
-
-## Core Features
-
-- 🌟 **Electron** – *Build desktop apps with ease.*  
-- 🌀 **TypeScript** – *Type-safe coding made simple.*  
-- ⚛️ **React** – *For smooth and modern UIs.*  
-- 🥗 **SASS/SCSS Loader** – *Style it your way.*  
-- 🎨 **CSS Loader** – *Handle styles effortlessly.*  
-- 📸 **Image Loader** – *Easy image imports.*  
-- 🆎 **Font Loader** – *Add custom fonts easily.*  
-- 🧹 **ESLint** – *Keep your code clean and tidy.*  
-- 📦 **Electron Forge** – *Hassle-free builds and packaging.*  
-- 📐 **Custom Window Design** – *Frame, titlebar, and menubar your way.*  
-- 🔱 **Webpack Config** – *Optimized and customizable builds.*  
-- 🧩 **Path Aliases** – *Keep your code organized.*  
-- 🗡️ **Native Modules Support** – *Use Node.js modules seamlessly.*  
-- 🔥 **Fast Refresh & HMR** – *Instant updates while coding.*  
-- 🌞 **Dark/Light Mode** – *Built-in themes to switch it up.*  
-- 🎁 **Package Bundling** – *Share your app easily.*  
-
-<br>
-
-## Custom Electron Window Titlebar & Menus
-
-This project uses [electron-window](https://github.com/guasam/electron-window) to power custom window components and features.  
-
-**Here’s what it offers:**
-
-- Customizable titlebar for your Electron app.  
-- Easy platform-specific controls for max/min/close buttons—just set the `platform` prop (`windows` or `mac`) in `<WindowFrame>`.  
-- Show or hide the titlebar menus by pressing the `alt` or `option` key.  
-- The `title` prop shows up in the center of the titlebar when menus are hidden.  
-- Edit menu entries in the `src/main/window/titlebarMenus.ts` file.  
-- Customize UI, colors, or window controls by tweaking the `src/renderer/window` components and styles.  
-
-
-<br>
-
-## Custom Aliases for Paths
-
-This project includes predefined aliases to simplify `import` paths. Here’s the list:  
-
-| **Alias**      | **Target Path**              |  
-| --------------- | --------------------------- |  
-| `@assets`       | `/assets`                   |  
-| `@main`         | `/src/main`                 |  
-| `@renderer`     | `/src/renderer`             |  
-| `@common`       | `/src/common`               |  
-| `@src`          | `/src`                      |  
-| `@styles`       | `/src/renderer/styles`      |  
-| `@components`   | `/src/renderer/components`  |  
-
-
-<br>
 
 ## Installation
-
-![status](https://img.shields.io/badge/ERWT-Main%20Version-blue.svg)
-
-The default branch of the project has a clean structure with separate contexts for `main` and `renderer`, plus custom windows, titlebars, and more.  
-
-```bash
-git clone https://github.com/guasam/electron-react-webpack-typescript-2024
-```
-
-<br>
-<div align="center">
-    <b>OR</b>
-</div>
-<br>
-
-![status](https://img.shields.io/badge/ERWT-Minimal%20Version-0a922a.svg)
-
-The minimal version of ERWT has a super simple project structure "wihtout" any custom windows, titlebars, or menus. 
-
-```bash
-git clone -b minimal https://github.com/guasam/electron-react-webpack-typescript-2024
-```
 
 <br>
 
@@ -91,7 +12,7 @@ Install dependencies using [pnpm](https://pnpm.io/) or [yarn](https://www.npmjs.
 ```bash
 # using pnpm
 pnpm install
-
+ßß
 # or using yarn
 yarn install
 
